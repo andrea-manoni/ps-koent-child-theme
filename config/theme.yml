@@ -1,0 +1,16 @@
+parent: classic
+name: child_example
+display_name: A child theme for the classic prestashop theme
+version: 1.0.0
+author:
+  name: "Andrea Manoni"
+  email: "andrea.manoni@koent.it"
+  url: "http://www.prestashop.koent.it"
+  
+assets:
+  use_parent_assets: true
+  css:
+    all:
+      - id: child_custom
+        path: assets/css/child_custom.css
+  

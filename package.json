@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "build:sass": "sass ./assets/scss/child_custom.scss:./assets/css/child_custom.css"
+    }
+}
